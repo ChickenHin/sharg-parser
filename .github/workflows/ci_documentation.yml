@@ -5,13 +5,13 @@
 name: Documentation
 
 on:
-  push:
-    branches:
-      - 'main'
-  pull_request_target:
-    types:
-      - unlabeled
-      - closed
+  # push:
+  #   branches:
+  #     - 'main'
+  # pull_request_target:
+  #   types:
+  #     - unlabeled
+  #     - closed
   workflow_dispatch:
 
 concurrency:
