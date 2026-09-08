@@ -5,12 +5,12 @@
 name: License
 
 on:
-  push:
-    branches:
-      - 'main'
-  pull_request:
-    types:
-      - unlabeled
+  # push:
+  #   branches:
+  #     - 'main'
+  # pull_request:
+  #   types:
+  #     - unlabeled
   workflow_dispatch:
 
 concurrency:
