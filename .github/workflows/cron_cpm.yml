@@ -5,8 +5,8 @@
 name: Update CPM
 
 on:
-  schedule:
-    - cron: "0 12 * * SAT"
+  # schedule:
+  #   - cron: "0 12 * * SAT"
   workflow_dispatch:
 
 env:
