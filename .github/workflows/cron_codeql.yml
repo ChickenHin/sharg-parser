@@ -5,8 +5,8 @@
 name: CodeQL
 
 on:
-  schedule:
-    - cron: "0 21 * * MON"
+  # schedule:
+  #   - cron: "0 21 * * MON"
   workflow_dispatch:
 
 concurrency:
