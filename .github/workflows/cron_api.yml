@@ -5,9 +5,9 @@
 name: API-Stability
 
 on:
-  # Will always run on the default branch
-  schedule:
-    - cron: "0 1 * * SUN"
+  # # Will always run on the default branch
+  # schedule:
+  #   - cron: "0 1 * * SUN"
   # Enables a manual trigger, may run on any branch
   workflow_dispatch:
 
