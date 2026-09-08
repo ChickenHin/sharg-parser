@@ -5,8 +5,8 @@
 name: Sanitizer
 
 on:
-  schedule:
-    - cron: "0 6 * * SAT"
+  # schedule:
+  #   - cron: "0 6 * * SAT"
   workflow_dispatch:
 
 concurrency:
