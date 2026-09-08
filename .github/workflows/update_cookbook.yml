@@ -5,9 +5,9 @@
 name: Sharg Cookbook
 
 on:
-  push:
-    branches:
-      - 'main'
+  # push:
+  #   branches:
+  #     - 'main'
   workflow_dispatch:
 
 concurrency:
